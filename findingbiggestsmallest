@@ -1,0 +1,19 @@
+def findBiggest(numbers):
+    biggest = numbers[0]
+    for x in numbers:
+        if(x>=biggest):
+            biggest = x
+    print(biggest)    
+
+numbers = [6, 4, 8, 2, 3, 71, 1, 5, 61, 77]
+findBiggest(numbers)
+
+def findSmallest(numbers):
+    smallest = numbers[0]
+    for x in numbers:
+        if(x<=smallest):
+            smallest = x
+    print(smallest)    
+
+numbers = [6, 4, 8, 2, 3, 71, 1, 5, 61, 77]
+findSmallest(numbers)
